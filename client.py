@@ -34,4 +34,4 @@ while True:
                 execute_command(command)
     except Exception as e:
         print(f"Error connecting to server: {e}")
-    time.sleep(
+    time.sleep(5)
